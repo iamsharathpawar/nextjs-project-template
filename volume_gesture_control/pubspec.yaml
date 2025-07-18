@@ -1,0 +1,23 @@
+name: volume_gesture_control
+description: A Flutter app that replaces physical volume buttons with swipe gestures
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^11.0.1
+  flutter_background_service: ^5.0.5
+  shared_preferences: ^2.2.2
+  system_alert_window: ^1.2.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
